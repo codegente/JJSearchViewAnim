@@ -2,6 +2,21 @@ JJSearchViewAnim
 ============================
 [中文版文档及相关文章](https://github.com/android-cjj/JJSearchViewAnim/blob/master/README-CN.md)
 
+
+Add it in your root build.gradle at the end of repositories:
+
+	allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+Step 2. Add the dependency
+
+	dependencies {
+		implementation 'com.github.xiejinpeng007:JJSearchViewAnim:1.0'
+	}
+
 [![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-JJSearchViewAnim-green.svg?style=true)](https://android-arsenal.com/details/1/3390)
 
 ![](http://ww1.sinaimg.cn/mw690/7ef01fcagw1f2kefqi8ekj205s05s749.jpg)
